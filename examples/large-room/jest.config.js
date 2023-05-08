@@ -1,6 +1,7 @@
 /** @type {import('jest').Config} */
 const config = {
   preset: 'ts-jest',
+  setupFiles: ['./jest.setup.js'],
   testEnvironment: 'jsdom',
   moduleNameMapper: {
     // `SyntaxError: Unexpected token 'export'` が発生するので uuid を強制的に CJS で読み込む.
