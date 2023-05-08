@@ -1,4 +1,4 @@
-# practice-skyway-js-sdk
+# inspection-skyway-js-sdk
 
 [SkyWay js-sdk の v1.2.4](https://github.com/skyway/js-sdk/tree/v1.2.4) をベースとした検証用リポジトリ
 
