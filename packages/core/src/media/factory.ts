@@ -1,12 +1,16 @@
 import { Event, Logger } from '@skyway-sdk/common';
 
 import {
-  createError,
+  // createError,
   createWarnPayload,
   DataStreamOptions,
   LocalDataStream,
   LocalMediaStreamOptions,
 } from '..';
+
+// 以下のエラー対策として試しに utils モジュールから直接 import してみる
+// ref: https://github.com/ta14-u/inspection-skyway-js-sdk/issues/4
+import { createError } from '../util';
 import { errors } from '../errors';
 import { LocalAudioStream } from './stream/local/audio';
 import { LocalVideoStream } from './stream/local/video';
